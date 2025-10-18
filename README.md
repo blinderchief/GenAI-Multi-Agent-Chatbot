@@ -1,10 +1,10 @@
-# Aria - Generative AI Chatbot
+# Suyash - Generative AI Chatbot
 
 A sophisticated human-like chatbot powered by LLMs with multi-agent architecture, specializing in Generative AI expertise.
 
-## 🤖 About Aria
+## 🤖 About Suyash
 
-**Aria Voss** is a 28-year-old Research Analyst specializing in Generative AI trends. With a master's degree in Computer Science from MIT, Aria provides expert guidance on:
+**Suyash** is a Research Analyst specializing in Generative AI trends. With strong experience across ML and NLP, Suyash provides expert guidance on:
 
 - Machine Learning & Deep Learning
 - Natural Language Processing
@@ -22,7 +22,7 @@ A sophisticated human-like chatbot powered by LLMs with multi-agent architecture
 
 ### Multi-Agent System
 
-Aria uses a sophisticated multi-level agent architecture:
+Suyash uses a sophisticated multi-level agent architecture:
 
 1. **Retrieval Agent** - Queries Qdrant vector database for domain-specific knowledge
 2. **Web Scraper Agent** - Fetches latest updates, papers, and trends from the web
@@ -162,7 +162,7 @@ Frontend will run at: http://localhost:8501
 ### 6. Use the Chatbot
 
 1. Open http://localhost:8501 in your browser
-2. Start chatting with Aria about Generative AI topics!
+2. Start chatting with Suyash about Generative AI topics!
 
 **Note:** `uv` is much faster than `pip` for package installation. If you don't have it, install with: `pip install uv`
 
@@ -170,7 +170,7 @@ Frontend will run at: http://localhost:8501
 
 ### Core Features
 
-✅ **Human-like Persona** - Aria presents as a real person with background and personality  
+✅ **Human-like Persona** - Suyash presents as a real person with background and personality  
 ✅ **Cross-Questioning** - Asks 2-3 clarifying questions before answering  
 ✅ **Multi-Agent Architecture** - Coordinated agents for retrieval, reasoning, memory, and evaluation  
 ✅ **GenAI Specialization** - Deep knowledge of Generative AI topics  
@@ -199,7 +199,7 @@ Edit `.env` file to customize:
 ## 📊 API Endpoints
 
 ### POST /chat
-Send a message to Aria
+Send a message to Suyash
 ```json
 {
   "message": "What are the latest trends in text-to-image models?",
@@ -214,7 +214,7 @@ Retrieve conversation history
 Clear conversation history
 
 ### GET /persona
-Get Aria's persona information
+Get Suyash's persona information
 
 ### GET /health
 Health check
@@ -234,14 +234,14 @@ pytest tests/ --cov=app --cov-report=html
 
 **User**: "What are the best frameworks for building AI agents?"
 
-**Aria**: "Before I answer, let me clarify a few things:
+**Suyash**: "Before I answer, let me clarify a few things:
 1. Are you looking for frameworks for autonomous AI agents or conversational agents?
 2. Do you prefer Python-based solutions or are you open to other languages?
 3. Is this for production use or experimentation?"
 
 **User**: "Python-based frameworks for autonomous agents in production."
 
-**Aria**: "Great! For production-grade autonomous AI agents in Python, I'd recommend:
+**Suyash**: "Great! For production-grade autonomous AI agents in Python, I'd recommend:
 
 1. **LangGraph** - Built on LangChain, excellent for complex agent workflows with state management...
 2. **CrewAI** - Specialized for multi-agent collaboration...
